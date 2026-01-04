@@ -9,7 +9,6 @@ body {
     color: #444;
 }
 
-/* HERO */
 .hero {
     background-color: #fdebd3;
     padding: 80px 20px;
@@ -46,7 +45,6 @@ body {
     grid-template-columns: 1fr;
 }
 
-/* CARD */
 .card {
     background-color: #ffffff;
     padding: 30px;
@@ -58,7 +56,6 @@ body {
     text-align: center;
 }
 
-/* SOFT SECTION */
 .soft-bg {
     background-color: #e8f1ea;
     padding: 60px 0;
@@ -71,7 +68,6 @@ body {
     color: #4a6f5b;
 }
 
-/* IMAGE */
 .foto {
     width: 220px;
     border-radius: 20px;
@@ -80,9 +76,16 @@ body {
 .alat {
     width: 100%;
     max-width: 320px;
+
+.card a {
+    color: #444;
+    text-decoration: none;
 }
 
-/* FOOTER */
+.card a :hover {
+    cursor: pointer;
+}
+
 footer {
     background-color: #f4c6a6;
     text-align: center;
